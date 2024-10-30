@@ -4,21 +4,24 @@
   "name": "manifestV3-react-rsbuild-template",
   "browser_specific_settings": { "gecko": { "id": "@manifestV3-react-rsbuild-template" } },
   "icons": {
-    "16": "logo.svg",
-    "32": "logo.svg",
-    "48": "logo.svg",
-    "96": "logo.svg",
-    "128": "logo.svg",
-    "192": "logo.svg",
-    "512": "logo.svg"
+    "16": "icons/16.png",
+    "24": "icons/24.png",
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "64": "icons/64.png",
+    "96": "icons/96.png",
+    "128": "icons/128.png"
   },
   "version": "0.0.1",
   "action": {
     "default_icon": {
-      "16": "logo.svg",
-      "32": "logo.svg",
-      "48": "logo.svg",
-      "96": "logo.svg"
+        "16": "icons/16.png",
+        "24": "icons/24.png",
+        "32": "icons/32.png",
+        "48": "icons/48.png",
+        "64": "icons/64.png",
+        "96": "icons/96.png",
+        "128": "icons/128.png"
     },
     "default_popup": "static/html/popup.html",
     "default_area": "menupanel"
