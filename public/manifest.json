@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "short_name": "manifestV3-react-rsbuild-template",
+  "name": "manifestV3-react-rsbuild-template",
+  "browser_specific_settings": { "gecko": { "id": "@manifestV3-react-rsbuild-template" } },
+  "icons": {
+    "16": "logo.svg",
+    "32": "logo.svg",
+    "48": "logo.svg",
+    "96": "logo.svg",
+    "128": "logo.svg",
+    "192": "logo.svg",
+    "512": "logo.svg"
+  },
+  "version": "0.0.1",
+  "action": {
+    "default_icon": {
+      "16": "logo.svg",
+      "32": "logo.svg",
+      "48": "logo.svg",
+      "96": "logo.svg"
+    },
+    "default_popup": "static/html/popup.html",
+    "default_area": "menupanel"
+  },
+  "options_ui": {
+    "page": "static/html/options.html"
+  },
+  "permissions": ["scripting"]
+}
