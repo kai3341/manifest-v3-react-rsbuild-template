@@ -1,29 +1,25 @@
 # Rsbuild Project
 
+Template project of ManifestV3 browser addon with React, RSBuild and Storybook
+
 ## Setup
 
 Install the dependencies:
 
 ```bash
-pnpm install
+npm install
 ```
 
 ## Get Started
 
-Start the dev server:
+Start the storybook dev server:
 
 ```bash
-pnpm dev
+npm run dev
 ```
 
 Build the app for production:
 
 ```bash
-pnpm build
-```
-
-Preview the production build locally:
-
-```bash
-pnpm preview
+npm run build
 ```
