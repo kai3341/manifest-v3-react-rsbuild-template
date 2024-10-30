@@ -1,10 +1,10 @@
 {
-  "name": "manifestV3-react-rsbuild-template",
+  "name": "manifest-v3-react-rsbuild-template",
   "private": true,
   "version": "1.0.0",
   "scripts": {
     "build": "rsbuild build",
-    "postbuild": "node make-xpi.js build",
+    "postbuild": "node make-xpi.cjs extension.xpi",
     "dev": "rsbuild dev --open",
     "lint": "eslint .",
     "preview": "rsbuild preview"
