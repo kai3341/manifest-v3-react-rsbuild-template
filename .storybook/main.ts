@@ -10,6 +10,7 @@ const config: StorybookConfig = {
     "../stories/**/*.mdx",
     "../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)",
   ],
+  addons: ["@storybook/addon-essentials"],
 };
 
 export default config;
