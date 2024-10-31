@@ -1,6 +1,6 @@
 import React from "react";
 import type { Meta, StoryFn } from "@storybook/react";
-import Popup from "../src/popup/App";
+import Popup from "../src/apps/popup/App";
 
 const meta: Meta = {
   title: "Apps/Popup",

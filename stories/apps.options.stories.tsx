@@ -1,6 +1,6 @@
 import React from "react";
 import type { Meta, StoryFn } from "@storybook/react";
-import Options from "../src/options/App";
+import Options from "../src/apps/options/App";
 
 const meta: Meta = {
   title: "Apps/Options",
