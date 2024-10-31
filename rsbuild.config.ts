@@ -7,8 +7,8 @@ const config = defineConfig({
 
 config.source = {
   entry: {
-    popup: "./src/popup/index.tsx",
-    options: "./src/options/index.tsx",
+    popup: "./src/apps/popup/index.tsx",
+    options: "./src/apps/options/index.tsx",
   },
 };
 
